@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Jee Tire Employment Application</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center my-4">Jee Tires Online Application</h1>
+            </div>
+            <form action="https://formsubmit.co/Logan@jeetires.com" method="POST">
+                <input type="hidden" name="_to" value="Logan@jeetires.com">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+
+
+
+            <label for="date"> Application Date: </label>
+            <input type="date" id="date" name="date" placeholder="mm/dd/yyyy" required>
+
+            <label for="position"> Position Applied For: </label>
+            <input type="text" id="position" name="position" placeholder = "ie. Warehouse" required>
+
+            <label for="fname"> First Name: </label>
+            <input type="text" id="fname" name="fname" placeholder = "First Name" required>
+
+            <label for="lname">Last Name: </label>
+            <input type="text" id="lname" name="lname" placeholder = "Last Name" required>
+
+            <label for="address"> Address: </label>
+            <input type="text" id="address" name="address" placeholder = "Street" required>
+
+            <label for="city"> City: </label>
+            <input type="text" id="city" name="city" placeholder = "City" required>
+
+            <label for="State"> State: </label>
+            <input type="text" id="State" name="State" placeholder = "TX" required>
+
+            <label for="Zip"> Zip: </label>
+            <input type="text" id="Zip" name="Zip" placeholder = "Zip" required>
+
+            <label for="Phone"> Phone: </label>
+            <input type="tel" id="Phone" name="Phone" placeholder = "555-555-5555" required>
+
+            <label for="email"> Email: </label>
+            <input type="email" id="email" name="email" placeholder = "Applicant@mail.com" required>
+
+            <label for="availdate"> Date Availble To Start: </label>
+            <input type="date" id="availdate" name="availdate" placeholder = "01/01/2023" required>
+
+            <label for="SSN"> Social Security Number: </label>
+            <input type="password" id="SSN" name="SSN" placeholder = "123-123-1232" required>
+
+            <label for="salary"> Salary Requirements: </label>
+            <input type="number" id="salary" name="salary" placeholder = "Hourly or Annual" required>
+
+        <div class="radiobtn"><br>
+            <p>Have you worked here before?</p>
+            <input type="radio" id="prioremp" name="prioremp" value="">
+            <label for="prioremp">Yes</label>
+            <input type="radio" id="prioremp" name="prioremp" value="">
+            <label for="prioremp">No</label><br>
+            <textarea id="prioremp" name="prioremp" class="textarea" placeholder= "If Yes: Enter dates and previous position"></textarea>
+            <label for="prioremp"></label>
+
+            <p>Are you a citizen of the United States?</p>
+            <input type="radio" id="citizen" name="citizen" value="">
+            <label for="citizen">Yes</label>
+            <input type="radio" id="citizen" name="citizen" value="">
+            <label for="citizen">No</label><br><br>
+
+            <p>Type of employment</p>
+            <input type="radio" id="emptype" name="emptype" value="">
+            <label for="emptype">Full-Time</label>
+            <input type="radio" id="emptype" name="emptype" value="">
+            <label for="emptype">Part-Time</label>
+            <input type="radio" id="emptype" name="emptype" value="">
+            <label for="emptype">Temporary</label>
+            <input type="radio" id="emptype" name="emptype" value="">
+            <label for="emptype">Seasonal</label><br><br>
+    
+            <p>Have you ever pleaded guilty, no contest, or been convicted of a crime?</p>
+            <input type="radio" id="guilty" name="guilty" value="">
+            <label for="guilty">Yes</label>
+            <input type="radio" id="guilty" name="guilty" value="">
+            <label for="guilty">No</label><br><br>
+            <textarea id="guilty" name="guilty" class="textarea" placeholder= "If Yes: Enter prior convictions, disposition, probation, relevant details, ect..."></textarea>
+            <label for="guilty"></label>
+    
+            <p>Entering yes to these questions does not constitue an automatic rejection for employment. Date of the offense, seriousness, and nature of the violation, rehabilitation, and position applied for will be considered.</p><br> 
+        </div>
+
+            <label class="mr-4"> Upload your CV: </label>
+                <input type="file" name="file">
+                <br>
+            <label class="mr-4"> Upload your Resume: </label>
+                <input type="file" name="file">
+                <br>
+
+
+
+            <button class="btn" type="submit" onclick="alert('Thank You For Applying. Someone will contact you soon!')">Submit</button>
+                    <input type="hidden" name="_next" value="https://www.jeetires.com">
+
+
+            <button class="btn" type="reset">Reset</button>
+
+        </form>
+    </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
