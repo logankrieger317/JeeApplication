@@ -40,6 +40,8 @@ button[type="reset"] {
 button[type="submit"]:hover,
 button[type="reset"]:hover {
     opacity: 0.8;
+    background-color:lightseagreen;
+    color: black;
 }
 
 h1 {
